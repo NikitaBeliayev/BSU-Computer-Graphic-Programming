@@ -5,7 +5,7 @@ The challenge is to write an application to view basic information about an imag
 
 ### Code examples:
 <br>
-Code from main methImplementation of the main window constructor, where graphical objects are created, and button click events are associated with the corresponding methods for processing these eventsdod:
+Code from main method:
 <br>
 
 ``` cpp

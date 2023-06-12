@@ -2,9 +2,10 @@
 <br>
 The challenge is to write an application to view basic information about an image. The following information is displayed: name, size, resolution, color depth, compression type. The information is displayed in the form of a table. To implement the application, the C++ programming language and the Qt framework were chosen. In the application, you can select both a separate file and a folder where image files are stored. You can also remove a specific entry from the image information from the watch list. When you click on any of the specified columns, all image records are sorted by this column.
 <br>
+
 ### Code examples:
 <br>
-Code from main methImplementation of the main window constructor, where graphical objects are created, and button click events are associated with the corresponding methods for processing these eventsdod:
+Code from main method:
 <br>
 
 ``` cpp
@@ -20,6 +21,7 @@ int main(int argc, char *argv[])
 }
 ```
 <br>
+
 ### MainWindow class declaration.
 
 Here are declared handlers for clicking on the buttons for opening the file dialog for selecting a file or folder and deleting a record about the selected image. A list variable is also declared for storing a list of the contents of the records table and other graphical objects for creating an interface.
@@ -263,3 +265,5 @@ void MainWindow::removeItem(){
 ```
 <br>
 The result is the following application:
+
+![](https://raw.githubusercontent.com/NikitaBeliayev/BSU-Computer-Graphic-Programming/development/Reading%20information%20from%20graphic%20files/.media/screenshot.png)

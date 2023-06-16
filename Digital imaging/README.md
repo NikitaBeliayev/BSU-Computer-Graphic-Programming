@@ -2,6 +2,7 @@
 <br>
 The challenge is to write an application to apply an anti-aliasing algorithm to an image and display the histogram of the selected image. To implement the application, the C++ programming language and the Qt framework were chosen. Also, the OpenCV library was used to apply an anti-aliasing filter to the image and display its histogram.
 <br>
+
 ### Code examples:
 <br>
 Code from main methIod:
@@ -21,6 +22,7 @@ int main(int argc, char *argv[])
 }
 ```
 <br>
+
 ### MainWindow class declaration.
 
 Here are declared methods for handling clicking on the buttons for opening a file dialog for selecting a file, applying an anti-aliasing algorithm for the selected image, and also a button for drawing a histogram for the image. A path variable is also declared to store the path of the selected image in the file system:
@@ -170,3 +172,6 @@ void MainWindow::OpenFileDialog(){
 <br>
 The result is the following application:
 
+![](https://raw.githubusercontent.com/NikitaBeliayev/BSU-Computer-Graphic-Programming/development/Digital%20imaging/.media/image2.png)
+![](https://raw.githubusercontent.com/NikitaBeliayev/BSU-Computer-Graphic-Programming/development/Digital%20imaging/.media/image1.png)
+![](https://raw.githubusercontent.com/NikitaBeliayev/BSU-Computer-Graphic-Programming/development/Digital%20imaging/.media/image3.png)

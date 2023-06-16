@@ -6,6 +6,7 @@ The task is to write an application to demonstrate the following rasterization a
 <br>
 Code from main method:
 <br>
+
 ``` cpp
 #include "mainwindow.h"
 #include <QApplication>
@@ -19,6 +20,7 @@ int main(int argc, char *argv[])
 }
 ```
 <br>
+
 ### MainWindow class declaration.
 
 Rasterization functions are declared here to demonstrate how they work. Also objects of graphic elements for creation of design are declared.
@@ -89,9 +91,13 @@ private:
 #endif // MAINWINDOW_H
 
 ```
+
+### MainWindow class implementation
+
 <br>
 Below is an example of the implementation of the main window class constructor, where graphic elements are created and the design for the application is formed. Events and corresponding handler functions are also connected
 <br>
+
 ``` cpp
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -179,6 +185,7 @@ MainWindow::MainWindow(QWidget *parent)
 <br>
 Example of implementation for producing DBA rasterization algorithm:
 <br>
+
 ``` cpp
 void MainWindow::DBAAlghoritm(int x1, int x2, int y1, int y2){
     ui->plot->clearGraphs();
@@ -206,6 +213,7 @@ void MainWindow::DBAAlghoritm(int x1, int x2, int y1, int y2){
 <br>
 Example of implementation for producing Bresenham circle rasterization algorithm:
 <br>
+
 ``` cpp
 void MainWindow::BresenhamCircleAlghoritm(int xc, int yc, int r){
     ui->plot->clearGraphs();
@@ -232,6 +240,7 @@ void MainWindow::BresenhamCircleAlghoritm(int xc, int yc, int r){
 <br>
 Example of implementation for producing Bresenham rasterization algorithm:
 <br>
+
 ``` cpp
 void MainWindow::BresenhamAlghoritm(int x1, int y1, int x2, int y2){
     ui->plot->clearGraphs();
@@ -256,7 +265,8 @@ void MainWindow::BresenhamAlghoritm(int x1, int y1, int x2, int y2){
 <br>
 Example of implementation for producing Step by step rasterization algorithm
 <br>
-```
+
+``` cpp
 void MainWindow::StepByStepAlghoritm(int x1, int x2, int y1, int y2){
     ui->plot->clearGraphs();
     QVector<double> xs, ys;
@@ -277,3 +287,7 @@ void MainWindow::StepByStepAlghoritm(int x1, int x2, int y1, int y2){
 <br>
 <br>
 The result is the following application:
+
+![](https://raw.githubusercontent.com/NikitaBeliayev/BSU-Computer-Graphic-Programming/development/Rasterization%20algorithms/.media/Screenshot%202023-06-16%20104611.png)
+![](https://raw.githubusercontent.com/NikitaBeliayev/BSU-Computer-Graphic-Programming/development/Rasterization%20algorithms/.media/Screenshot%202023-06-16%20104623.png)
+![](https://raw.githubusercontent.com/NikitaBeliayev/BSU-Computer-Graphic-Programming/development/Rasterization%20algorithms/.media/Screenshot%202023-06-16%20104515.png)

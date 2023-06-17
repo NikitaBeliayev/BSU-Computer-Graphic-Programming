@@ -230,3 +230,8 @@ private void Button_Click(object sender, RoutedEventArgs e)
 ```
 <br>
 The result is the following application:
+
+![](https://raw.githubusercontent.com/NikitaBeliayev/BSU-Computer-Graphic-Programming/development/Cut%20off%20algorithm/.media/Screenshot%202023-06-16%20231131.png)
+![](https://raw.githubusercontent.com/NikitaBeliayev/BSU-Computer-Graphic-Programming/development/Cut%20off%20algorithm/.media/Screenshot%202023-06-16%20235344.png)
+![](https://raw.githubusercontent.com/NikitaBeliayev/BSU-Computer-Graphic-Programming/development/Cut%20off%20algorithm/.media/Screenshot%202023-06-16%20235435.png)
+![](https://raw.githubusercontent.com/NikitaBeliayev/BSU-Computer-Graphic-Programming/development/Cut%20off%20algorithm/.media/Screenshot%202023-06-17%20000106.png)
